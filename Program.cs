@@ -17,7 +17,7 @@ namespace Image2Excel
             {
                 case 0:
                     Console.WriteLine("Please supply an image file name and an optional Excel file name.");
-                    Console.WriteLine("Example: dotnet run [path/imagefile.ext [path/excelfile.xls]]");
+                    Console.WriteLine("Example: ./Image2Excel [\"path/imagefile.ext\" [\"path/excelfile.xls\"]]");
                     return;
                 case 1:
                     imageFilename = args[0];
@@ -33,4 +33,6 @@ namespace Image2Excel
         }
     }
 }
+
+// https://github.com/gibran-shah/Image2Excel2
 
